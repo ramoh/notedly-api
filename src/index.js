@@ -16,6 +16,7 @@ const {createComplexityLimitRule} = require("graphql-validation-complexity");
 const port = process.env.PORT || 4000;
 const DB_HOST = process.env.DB_HOST;
 
+//Instantiate app
 const app = express();
 
 //helmet middleware should be at the top of the stack
